@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: ebonlinepretty.netlify.com
-Token: ab075e04191c5bbd22e920a09611901080cf0770761d25ffec98067c5afa523b
+Token: 650c32771c0e7c4e005952c8a8226790369bf6a43b9caea3dd62de495ca4f03d
